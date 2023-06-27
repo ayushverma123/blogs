@@ -17,7 +17,7 @@ export class BlogController {
   }
   */
 
-  @Get('get')
+  @Get('getall')
   async getBlogs(
     @Query() queryDto: GetQueryDto,
   ): Promise<IBlog[]> {
